@@ -1,16 +1,16 @@
 // app.js
 
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import LandingPage from './layouts/LandingPage';
 
 class Main extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello World!</h1>
-      </div>
-    )
-  }
+    render() {
+        return (
+            <LandingPage />
+        );
+    }
 }
 
 const app = document.getElementById('app')
